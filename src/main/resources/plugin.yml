@@ -1,0 +1,8 @@
+name: furnace_advanced
+description: $description
+version: '${version}'
+
+main: io.plugin.spigot.FurnaceAdvanced
+api-version: '26.1'
+
+authors: [ skyherobrine ]
