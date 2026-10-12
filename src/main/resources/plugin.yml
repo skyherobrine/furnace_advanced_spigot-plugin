@@ -2,7 +2,20 @@ name: furnace_advanced
 description: $description
 version: '${version}'
 
-main: io.plugin.spigot.FurnaceAdvanced
+main: dev.skyherobrine.plugin.spigot.FurnaceAdvanced
 api-version: '26.1'
 
 authors: [ skyherobrine ]
+
+commands:
+  fa:
+    permission: furnaceadvanced.command.fa
+    description: A command to show all the commands in this plugin
+    usage: /<command>
+
+permissions:
+  furnaceadvanced.command.fa:
+    description: A permission to allow the player can view all the commands in this plugin
+    default: op
+
+
